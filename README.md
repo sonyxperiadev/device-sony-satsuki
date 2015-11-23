@@ -1,1 +1,7 @@
-# device-sony-satsuki
+Copyright (C) Sony Mobile Communications 2015
+=============================================
+
+This is the Android device configuration for Xperia Z5 Premium(kitakami platform).
+
+Build instructions
+http://developer.sonymobile.com/knowledge-base/open-source/open-devices/aosp-build-instructions/
