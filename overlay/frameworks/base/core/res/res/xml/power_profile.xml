@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
     <item name="none">0</item>
-    <item name="screen.on">24.95</item>
+    <item name="screen.on">89.89</item>
     <item name="bluetooth.active">0.1</item>
     <item name="bluetooth.on">0.61</item>
     <item name="bluetooth.at">39.93</item>
-    <item name="screen.full">380.19</item>
+    <item name="screen.full">447.69</item>
     <item name="wifi.on">2.19</item>
     <item name="wifi.active">94.22</item>
     <item name="wifi.scan">0.1</item>
@@ -49,7 +49,7 @@
         <value>82.83</value>
     </array>
     <item name="cpu.awake">15.59</item>
-    <item name="battery.capacity">2900</item>
+    <item name="battery.capacity">3430</item>
     <array name="wifi.batchedscan">
         <value>.0002</value>
         <value>.002</value>
