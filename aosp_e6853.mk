@@ -40,6 +40,10 @@ PRODUCT_COPY_FILES += \
     device/sony/satsuki/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     device/sony/satsuki/rootdir/system/etc/mixer_paths.xml:system/etc/mixer_paths.xml
 
+# NFC config
+PRODUCT_PACKAGES += nfc_nci.satsuki
+ADDITIONAL_DEFAULT_PROPERTIES += ro.hardware.nfc_nci=satsuki
+
 PRODUCT_NAME := aosp_e6853
 PRODUCT_DEVICE := satsuki
 PRODUCT_MODEL := Xperia Z5 Premium(AOSP)
