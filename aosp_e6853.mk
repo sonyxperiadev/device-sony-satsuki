@@ -38,9 +38,23 @@ PRODUCT_COPY_FILES += \
     device/sony/satsuki/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     device/sony/satsuki/rootdir/system/etc/mixer_paths.xml:system/etc/mixer_paths.xml
 
+# Device Init
+PRODUCT_PACKAGES += \
+    init.recovery.satsuki \
+    init.satsuki \
+    ueventd.satsuki
+
+# Lights
+PRODUCT_PACKAGES += \
+    lights.satsuki
+
+# Simple PowerHAL
+PRODUCT_PACKAGES += \
+    power.satsuki
+
 # NFC config
-PRODUCT_PACKAGES += nfc_nci.satsuki
-ADDITIONAL_DEFAULT_PROPERTIES += ro.hardware.nfc_nci=satsuki
+PRODUCT_PACKAGES += \
+    nfc_nci.satsuki
 
 PRODUCT_NAME := aosp_e6853
 PRODUCT_DEVICE := satsuki
