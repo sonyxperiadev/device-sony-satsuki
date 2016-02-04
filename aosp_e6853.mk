@@ -38,6 +38,20 @@ PRODUCT_COPY_FILES += \
     device/sony/satsuki/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     device/sony/satsuki/rootdir/system/etc/mixer_paths.xml:system/etc/mixer_paths.xml
 
+# Device Init
+PRODUCT_PACKAGES += \
+    init.recovery.satsuki \
+    init.satsuki \
+    ueventd.satsuki
+
+# Lights
+PRODUCT_PACKAGES += \
+    lights.satsuki
+
+# Simple PowerHAL
+PRODUCT_PACKAGES += \
+    power.satsuki
+
 PRODUCT_NAME := aosp_e6853
 PRODUCT_DEVICE := satsuki
 PRODUCT_MODEL := Xperia Z5 Premium(AOSP)
