@@ -17,6 +17,7 @@ TARGET_KERNEL_CONFIG := aosp_kitakami_satsuki_defconfig
 DEVICE_PACKAGE_OVERLAYS += \
     device/sony/satsuki/overlay
 
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, device/sony/kitakami/device.mk)
 $(call inherit-product, vendor/sony/satsuki/satsuki-vendor.mk)
