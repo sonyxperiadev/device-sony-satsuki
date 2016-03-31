@@ -16,6 +16,8 @@ include device/sony/kitakami/PlatformConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := E6853
 
+WIFI_BUS := PCIE
+
 BOARD_KERNEL_CMDLINE += androidboot.hardware=satsuki
 
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
