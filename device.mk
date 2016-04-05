@@ -60,4 +60,4 @@ PRODUCT_PROPERTY_OVERRIDES := \
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/kitakami/platform.mk)
-$(call inherit-product, vendor/sony/satsuki/satsuki-vendor.mk)
+$(call inherit-product, vendor/sony/kitakami-satsuki/satsuki-vendor.mk)
