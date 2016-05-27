@@ -47,6 +47,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.satsuki
 
+# Fingerprint HAL
+PRODUCT_PACKAGES += \
+    fingerprintd \
+    fingerprint.satsuki
+
 # NFC config
 PRODUCT_PACKAGES += \
     nfc_nci.satsuki
