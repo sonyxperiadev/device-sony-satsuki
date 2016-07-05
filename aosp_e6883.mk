@@ -12,6 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_e6853.mk \
-                     $(LOCAL_DIR)/aosp_e6883.mk
+# Inherit from those products. Most specific first.
+$(call inherit-product, device/sony/satsuki/aosp_e6853.mk)
 
+PRODUCT_NAME := aosp_e6883
+PRODUCT_DEVICE := satsuki
+PRODUCT_MODEL := Xperia Z5 Premium Dual (AOSP)
+PRODUCT_BRAND := Sony
+PRODUCT_MANUFACTURER := Sony
