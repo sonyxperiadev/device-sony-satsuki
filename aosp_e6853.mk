@@ -21,6 +21,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 PRODUCT_NAME := aosp_e6853
 PRODUCT_DEVICE := satsuki
-PRODUCT_MODEL := Xperia Z5 Premium(AOSP)
+PRODUCT_MODEL := Xperia Z5 Premium (AOSP)
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
