@@ -78,3 +78,6 @@ $(call inherit-product, vendor/sony/kitakami-satsuki/satsuki-vendor.mk)
 
 # copy wlan firmware
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4356/device-bcm.mk)
+
+# copy NFC firmware
+$(call inherit-product-if-exists, vendor/nxp/nxp-vendor.mk)
